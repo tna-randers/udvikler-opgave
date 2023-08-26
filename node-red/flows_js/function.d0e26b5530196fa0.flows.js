@@ -23,8 +23,6 @@ const Node = {
 Node.func = async function (node, msg, RED, context, flow, global, env, util) {
   msg.sql = `DROP TABLE IF EXISTS ${msg.tableName}`;
   
-  
-  
   return msg;
 }
 

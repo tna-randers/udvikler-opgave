@@ -23,8 +23,8 @@ const Node = {
 Node.func = async function (node, msg, RED, context, flow, global, env, util) {
   const dataValues = msg.payload.map(item =>`('${item['INDHOLD']}',
                                               '${item['KØN']}', 
-                                              '${item['ALDER']}', 
                                               '${item['CIVILSTAND']}', 
+                                              '${item['ALDER']}', 
                                               '${item['TID']}', 
                                               '${item['OMRÅDE']}')`).join(', ');
   
