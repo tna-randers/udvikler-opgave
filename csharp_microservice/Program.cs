@@ -41,10 +41,9 @@ namespace CSharpMicroservice
                         requestBody = await reader.ReadToEndAsync();
                     }
                     var data = JObject.Parse(requestBody);
-
+                
                     // Add your custom data transformations here
                     var transformedData = "(" + string.Join(", ", data.Values()) + ")";
-
                     // Return the transformed data as a JSON string
                     await context.Response.WriteAsync(transformedData);
                 }
