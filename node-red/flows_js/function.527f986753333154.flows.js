@@ -1,8 +1,7 @@
 const Node = {
-  "id": "9e4a438f4369c6b9",
+  "id": "527f986753333154",
   "type": "function",
-  "z": "6bfba71ac52becce",
-  "g": "967e06bf79433764",
+  "z": "539fe1a166d2a692",
   "name": "Create table",
   "func": "",
   "outputs": 1,
@@ -10,14 +9,14 @@ const Node = {
   "initialize": "",
   "finalize": "",
   "libs": [],
-  "x": 470,
-  "y": 200,
+  "x": 250,
+  "y": 260,
   "wires": [
     [
-      "bcc140f415b84643"
+      "0cd549b7b8fd82e1"
     ]
   ],
-  "_order": 145
+  "_order": 95
 }
 
 Node.func = async function (node, msg, RED, context, flow, global, env, util) {

@@ -1,14 +1,13 @@
 const Node = {
-  "id": "ad5078805414b75c",
+  "id": "a13585d36380925b",
   "type": "comment",
-  "z": "6bfba71ac52becce",
-  "g": "967e06bf79433764",
+  "z": "539fe1a166d2a692",
   "name": "New database table is created\\n and populated from a POST request\\n and SQL queries",
   "info": "",
-  "x": 740,
-  "y": 80,
+  "x": 520,
+  "y": 120,
   "wires": [],
-  "_order": 154
+  "_order": 98
 }
 
 module.exports = Node;

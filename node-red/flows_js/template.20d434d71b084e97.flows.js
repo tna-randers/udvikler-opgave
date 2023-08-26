@@ -1,28 +1,28 @@
 const Node = {
-  "id": "bcc140f415b84643",
+  "id": "20d434d71b084e97",
   "type": "template",
   "z": "6bfba71ac52becce",
-  "g": "967e06bf79433764",
-  "name": "SQL",
-  "field": "payload",
+  "g": "22c917067368d3cc",
+  "name": "Select Table",
+  "field": "sql",
   "fieldType": "msg",
   "format": "handlebars",
   "syntax": "mustache",
   "template": "",
   "output": "str",
-  "x": 610,
-  "y": 200,
+  "x": 350,
+  "y": 680,
   "wires": [
     [
-      "6f480e7d1d5ac67c"
+      "85f505fa9cdc37d9"
     ]
   ],
-  "_order": 146
+  "_order": 166
 }
 
 Node.template = `
-{{msg.sql}}
-
+SELECT *
+FROM folketal_civilstand
 `
 
 module.exports = Node;

@@ -2,7 +2,6 @@ const Node = {
   "id": "d8252ff8fb6d1d5f",
   "type": "function",
   "z": "6bfba71ac52becce",
-  "g": "967e06bf79433764",
   "name": "Insert data",
   "func": "",
   "outputs": 1,
@@ -10,14 +9,14 @@ const Node = {
   "initialize": "",
   "finalize": "",
   "libs": [],
-  "x": 470,
-  "y": 400,
+  "x": 630,
+  "y": 140,
   "wires": [
     [
       "2067be3a19425210"
     ]
   ],
-  "_order": 149
+  "_order": 154
 }
 
 Node.func = async function (node, msg, RED, context, flow, global, env, util) {

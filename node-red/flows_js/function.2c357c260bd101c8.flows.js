@@ -1,28 +1,29 @@
 const Node = {
-  "id": "d0e26b5530196fa0",
+  "id": "2c357c260bd101c8",
   "type": "function",
   "z": "6bfba71ac52becce",
-  "g": "967e06bf79433764",
-  "name": "Drop table",
+  "g": "22c917067368d3cc",
+  "name": "JSON.stringify",
   "func": "",
   "outputs": 1,
   "noerr": 0,
   "initialize": "",
   "finalize": "",
   "libs": [],
-  "x": 470,
-  "y": 140,
+  "x": 740,
+  "y": 680,
   "wires": [
     [
-      "a0bb317226d641c1"
+      "3722df3c2bb6c2ea"
     ]
   ],
-  "_order": 141
+  "_order": 160
 }
 
 Node.func = async function (node, msg, RED, context, flow, global, env, util) {
-  msg.sql = `DROP TABLE IF EXISTS ${msg.tableName}`;
+  const jsonData = JSON.stringify(msg.payload);
   
+  msg.payload = jsonData;
   return msg;
 }
 

@@ -5,10 +5,10 @@ const Node = {
   "g": "5802aaf185ad96e3",
   "name": "Database Quick Commands",
   "info": "",
-  "x": 220,
-  "y": 500,
+  "x": 260,
+  "y": 360,
   "wires": [],
-  "_order": 138
+  "_order": 151
 }
 
 module.exports = Node;

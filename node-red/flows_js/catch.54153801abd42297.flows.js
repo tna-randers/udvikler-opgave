@@ -1,19 +1,20 @@
 const Node = {
-  "id": "41e152bca50edd12",
+  "id": "54153801abd42297",
   "type": "catch",
   "z": "6bfba71ac52becce",
-  "g": "967e06bf79433764",
   "name": "",
-  "scope": null,
+  "scope": [
+    "ab5de41c73d29dc5"
+  ],
   "uncaught": false,
-  "x": 480,
-  "y": 80,
+  "x": 90,
+  "y": 60,
   "wires": [
     [
-      "d0e26b5530196fa0"
+      "665b395d9d902ef0"
     ]
   ],
-  "_order": 153
+  "_order": 164
 }
 
 module.exports = Node;

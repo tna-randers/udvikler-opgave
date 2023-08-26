@@ -2,7 +2,7 @@ const Node = {
   "id": "292405a4304ecc72",
   "type": "change",
   "z": "6bfba71ac52becce",
-  "name": "set tableName",
+  "name": "Property\\n initialisering",
   "rules": [
     {
       "t": "set",
@@ -17,14 +17,14 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 280,
+  "x": 270,
   "y": 140,
   "wires": [
     [
-      "d0e26b5530196fa0"
+      "1ec5e2bec73e3082"
     ]
   ],
-  "_order": 156
+  "_order": 159
 }
 
 module.exports = Node;

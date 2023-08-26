@@ -1,9 +1,8 @@
 const Node = {
-  "id": "68b02bedd3b065cf",
+  "id": "ec8aac637adc3dca",
   "type": "change",
-  "z": "6bfba71ac52becce",
-  "g": "967e06bf79433764",
-  "name": "forbered POST request\\n fra api.statbank.dk",
+  "z": "539fe1a166d2a692",
+  "name": "forbered POST request\\n til api.statbank.dk",
   "rules": [
     {
       "t": "set",
@@ -25,14 +24,14 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 770,
-  "y": 300,
+  "x": 550,
+  "y": 340,
   "wires": [
     [
-      "2567cd922fefca47"
+      "2a9944428949e3f3"
     ]
   ],
-  "_order": 126
+  "_order": 91
 }
 
 module.exports = Node;

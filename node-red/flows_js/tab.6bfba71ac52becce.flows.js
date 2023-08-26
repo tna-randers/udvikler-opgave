@@ -1,7 +1,7 @@
 const Node = {
   "id": "6bfba71ac52becce",
   "type": "tab",
-  "label": "Flow 1",
+  "label": "udvikler-opgave",
   "disabled": false,
   "info": "",
   "env": [],

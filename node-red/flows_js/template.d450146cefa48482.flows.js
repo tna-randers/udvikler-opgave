@@ -1,8 +1,7 @@
 const Node = {
-  "id": "a0bb317226d641c1",
+  "id": "d450146cefa48482",
   "type": "template",
-  "z": "6bfba71ac52becce",
-  "g": "967e06bf79433764",
+  "z": "539fe1a166d2a692",
   "name": "SQL",
   "field": "payload",
   "fieldType": "msg",
@@ -10,14 +9,14 @@ const Node = {
   "syntax": "mustache",
   "template": "",
   "output": "str",
-  "x": 610,
-  "y": 140,
+  "x": 390,
+  "y": 200,
   "wires": [
     [
-      "cdc5cee98b5b60b1"
+      "7475f39b23448981"
     ]
   ],
-  "_order": 144
+  "_order": 94
 }
 
 Node.template = `

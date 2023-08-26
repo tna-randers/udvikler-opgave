@@ -1,8 +1,7 @@
 const Node = {
-  "id": "0a68e1a8abf55099",
+  "id": "6b608c501ecaee97",
   "type": "function",
-  "z": "6bfba71ac52becce",
-  "g": "967e06bf79433764",
+  "z": "539fe1a166d2a692",
   "name": "Opsætning af JSON krop",
   "func": "",
   "outputs": 1,
@@ -10,14 +9,14 @@ const Node = {
   "initialize": "",
   "finalize": "",
   "libs": [],
-  "x": 510,
-  "y": 300,
+  "x": 290,
+  "y": 340,
   "wires": [
     [
-      "68b02bedd3b065cf"
+      "ec8aac637adc3dca"
     ]
   ],
-  "_order": 125
+  "_order": 90
 }
 
 Node.func = async function (node, msg, RED, context, flow, global, env, util) {
@@ -66,7 +65,7 @@ Node.func = async function (node, msg, RED, context, flow, global, env, util) {
       }
   ];
   
-  //Assignment af ALDER og Tid variables
+  //Assignment af ALDER værdier
   msg.payload.variables[2].values = cachedAlderArray;
   return msg;
 }

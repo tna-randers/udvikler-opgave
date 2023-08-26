@@ -10,16 +10,16 @@ const Node = {
   "syntax": "mustache",
   "template": "",
   "output": "str",
-  "x": 370,
-  "y": 720,
+  "x": 410,
+  "y": 580,
   "wires": [
     []
   ],
-  "_order": 134
+  "_order": 147
 }
 
 Node.template = `
-DROP TABLE folketal_civilstand
+DROP TABLE msg.tableName
 `
 
 module.exports = Node;
